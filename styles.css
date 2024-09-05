@@ -1,0 +1,153 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-brand .logo {
+    height: 70px; /* Adjust the height for a larger logo */
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: bold; /* Make nav links bold */
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .nav-link i {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link i:hover {
+    color: #007bff;
+}
+
+/* Hide the toggler icon for larger screens */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #333;
+}
+
+/* Hero Section Background */
+.hero-section {
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Gradient Button Styling */
+.btn-gradient {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #00c6ff, #007bff);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+    color: #fff;
+}
+
+/* Image Styling */
+.images-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    z-index: 1;
+}
+
+.overlapping-image {
+    position: absolute;
+    width: 60%;
+    max-width: 250px;
+    bottom: -10%;
+    right: -15%;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.head1{
+    background-image: url("section1.png");
+}
+
+/* Footer Styling */
+.footer-section {
+    background-color: #f4f5f7;
+    color: #333;
+}
+
+.footer-logo {
+    height: 60px; /* Adjust the size of the footer logo */
+}
+
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-section a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+.footer-section .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+/* Footer Contact Information */
+.footer-section address {
+    font-style: normal;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-section .text-muted {
+    color: #6c757d;
+}
+
+.footer-section i {
+    margin-right: 8px;
+}
